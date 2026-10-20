@@ -98,7 +98,7 @@ ul li a:hover {
 
 .inicio{
     height: 100vh;
-    background-image: url(imagem/fundo\ 1.png);
+    background-image: url(Imagens/fundo\ 1.png);
     background-repeat: no-repeat;
     background-attachment: flex;
     background-position: right , top;
@@ -608,7 +608,7 @@ ul li a:hover {
 .buttongithub{
     width: 75px;
     height: 75px;
-    background-image: url(imagem/GitHubWhite.png);
+    background-image: url(Imagens/GitHubWhite.png);
     background-size: 101%;
     background-repeat: no-repeat;
     border:none;
@@ -618,13 +618,13 @@ ul li a:hover {
 }
 
 .buttongithub:hover{
-    background-image: url(imagem/githubroxo.png);
+    background-image: url(Imagens/githubroxo.png);
 }
 
 .buttonlinkedin{
     width: 75px;
     height: 75px;
-    background-image: url(imagem/linkedin.png);
+    background-image: url(Imagens/linkedin.png);
     background-size: 103%;
     background-repeat: no-repeat;
     border:none;
@@ -635,13 +635,13 @@ ul li a:hover {
 }
 
 .buttonlinkedin:hover{
-    background-image: url(imagem/linkedin\ roxo.png);
+    background-image: url(Imagens/linkedin\ roxo.png);
 }
 
 .buttongmail{
     width: 75px;
     height: 75px;
-    background-image: url(imagem/gmail\ .png);
+    background-image: url(Imagens/gmail\ .png);
     background-size: 103%;
     background-repeat: no-repeat;
     border:none;
@@ -652,7 +652,7 @@ ul li a:hover {
 }
 
 .buttongmail:hover{
-    background-image: url(imagem/gmail\ roxo.png);
+    background-image: url(Imagens/gmail\ roxo.png);
 }
 
 
