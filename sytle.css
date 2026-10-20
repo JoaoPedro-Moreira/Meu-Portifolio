@@ -656,6 +656,361 @@ ul li a:hover {
 }
 
 
+/* ============================= */
+/* ADAPTAÇÃO PARA DISPOSITIVOS MÓVEIS com o uso de IA */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    html {
+        width: 100%;
+        min-width: 0;
+        min-height: 100%;
+        scroll-snap-type: y proximity;
+    }
+
+    body {
+        width: 100%;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    section {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        box-sizing: border-box;
+        padding-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 22px;
+        margin: 0;
+        padding: 35px 15px 20px;
+        text-align: center;
+        overflow-wrap: anywhere;
+    }
+
+    /* MENU */
+
+    nav {
+        width: 100%;
+        max-height: none;
+    }
+
+    ul {
+        width: 100%;
+        max-height: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        z-index: 20;
+        box-sizing: border-box;
+    }
+
+    ul li {
+        float: none;
+    }
+
+    ul li a {
+        padding: 8px 7px;
+        font-size: 11px;
+    }
+
+    /* INÍCIO */
+
+    .inicio {
+        min-height: 100vh;
+        height: auto;
+        padding-top: 100px;
+        box-sizing: border-box;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .inicio h1 {
+        font-size:  clamp(38px, 10vw, 65px);
+        margin: 35px 10px 10px;
+        overflow-wrap: anywhere;
+        text-align: center;
+    }
+
+    .inicio h2 {
+        font-size: clamp(17px, 4.5vw, 27px);
+        margin: 0 12px;
+        text-align: center;
+    }
+
+    .curriculo {
+        display: block;
+        margin: 60px auto 30px;
+        padding: 15px 20px;
+        max-width: 90%;
+        box-sizing: border-box;
+    }
+
+    #curriculo {
+        text-align: center;
+    }
+
+    /* PROJETOS */
+
+    #projetos {
+        height: auto;
+        gap: 20px;
+    }
+
+    .areaprojetos {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .projetos {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        gap: 15px;
+        padding: 15px 10px 25px;
+    }
+
+    .projeto {
+        flex: 0 0 calc(100vw - 50px);
+        width: calc(100vw - 50px);
+        min-width: 0;
+        height: auto;
+        min-height: 420px;
+        margin: 0;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .projeto h3 {
+        font-size: 23px;
+        margin: 10px 0;
+        overflow-wrap: anywhere;
+    }
+
+    .projeto h4 {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 15px 0;
+    }
+
+    .projeto a {
+        width: 180px;
+        max-width: 100%;
+        box-sizing: border-box;
+        font-size: 17px;
+        margin: 10px auto;
+    }
+
+    .controles {
+        padding: 0 8px;
+    }
+
+    .controles button {
+        width: 35px;
+        height: 40px;
+    }
+
+    #imagemsjf video {
+        width: 100%;
+        height: auto;
+        max-height: 260px;
+        object-fit: contain;
+    }
+
+    #imagemsol img {
+        max-width: 100%;
+        height: auto;
+        max-height: 200px;
+    }
+
+    /* FORMAÇÃO E HABILIDADES */
+
+    #blocoformacao {
+        width: 90%;
+        height: auto;
+        margin: 25px auto;
+        translate: 0;
+    }
+
+    #ucsal {
+        width: 100%;
+        align-items: center;
+        gap: 12px;
+    }
+
+    #ucsal img {
+        max-width: 65px;
+        height: auto;
+    }
+
+    #blocoformacao h3 {
+        height: auto;
+        font-size: 35px;
+    }
+
+    #blocoformacao h4 {
+        font-size: 19px;
+        line-height: 1.4;
+    }
+
+    #blocoformacao h5 {
+        margin-right: 0;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #processo {
+        position: static;
+        bottom: auto;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #barraprocesso {
+        width: 80%;
+    }
+
+    #habilidades {
+        width: 90%;
+        height: auto;
+        margin: 25px auto;
+        padding: 15px;
+        box-sizing: border-box;
+        translate: 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #habilidades > div {
+        width: 100%;
+    }
+
+    #habilidades h5 {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 15px;
+        padding: 10px 5px;
+        margin: 10px 0;
+    }
+
+    /* TECNOLOGIAS */
+
+    #blocostec {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        box-sizing: border-box;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .grupotec {
+        width: 100%;
+    }
+
+    #blocostec h3 {
+        font-size: 30px;
+        overflow-wrap: anywhere;
+    }
+
+    #blocoback,
+    #blocofront,
+    #blocodesenvolvimento {
+        max-width: 90%;
+        box-sizing: border-box;
+    }
+
+    #blocofront {
+        translate: 0;
+    }
+
+    #nomefront {
+        translate: 0;
+    }
+
+    #elementosfront,
+    #elementosdev {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* SOBRE MIM */
+
+    #sobre h2 {
+        padding-bottom: 25px;
+    }
+
+    #bordaftminha {
+        width: 100%;
+        height: auto;
+        margin: 0 auto 20px;
+    }
+
+    #ftminha {
+        position: static;
+        display: block;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        box-sizing: border-box;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    #textosobre {
+        width: 90%;
+        margin: 0 auto;
+        translate: 0;
+        box-sizing: border-box;
+    }
+
+    #sobre h3 {
+        font-size: 18px;
+        line-height: 1.6;
+        padding: 18px;
+        margin: 0;
+    }
+
+    /* CONTATOS */
+
+    #contato h2 {
+        padding-top: 50px;
+        font-size: clamp(30px, 9vw, 55px);
+        overflow-wrap: anywhere;
+    }
+
+    #contato h3 {
+        font-size: 17px;
+        line-height: 1.5;
+        padding: 0 15px;
+        overflow-wrap: anywhere;
+    }
+
+    #botoescontato {
+        width: 100%;
+        height: auto;
+        translate: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin: 30px auto;
+    }
+
+    .buttonlinkedin,
+    .buttongmail {
+        translate: 0;
+    }
+}
+
+
+
 
 
 
