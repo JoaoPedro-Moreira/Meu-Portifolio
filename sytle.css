@@ -749,6 +749,7 @@ ul li a:hover {
         padding: 15px 20px;
         max-width: 90%;
         box-sizing: border-box;
+        border: 5px solid white;
     }
 
     #curriculo {
@@ -805,6 +806,7 @@ ul li a:hover {
         box-sizing: border-box;
         font-size: 17px;
         margin: 10px auto;
+        border: 5px solid #100126 ;
     }
 
     .controles {
