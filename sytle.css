@@ -773,6 +773,9 @@ ul li a:hover {
         margin: 2rem 0 0.5rem;
         text-align: center;
         overflow-wrap: anywhere;
+        width: 100%;
+        align-items: center;
+        box-sizing: border-box;
     }
 
     .inicio h2 {
@@ -786,7 +789,7 @@ ul li a:hover {
         display: block;
         width: 90%;
         max-width: 420px;
-        margin: 60px auto 30px;
+        margin: 30px auto 30px;
         padding: 15px 10px;
         box-sizing: border-box;
         text-align: center;
@@ -797,9 +800,27 @@ ul li a:hover {
         justify-content: center;
         align-items: center;
         width: 100%;
+        height: auto;
+        max-height: none;
         margin: 0;
-        padding: 0 15px;
+        padding: 0;
         box-sizing: border-box;
+    }
+
+    #curriculo a {
+        display: block;
+        width: 90%;
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    .botaocurriculo {
+        display: block;
+        width: 100%;
+        margin: 45px 0 30px;
+        padding: 20px 10px;
+        box-sizing: border-box;
+        text-align: center;
     }
 
 
@@ -1000,7 +1021,7 @@ ul li a:hover {
         box-sizing: border-box;
     }
 
-    #habilidades > div {
+    #habilidades div {
         display: flex;
         flex-direction: column;
         width: 100%;
