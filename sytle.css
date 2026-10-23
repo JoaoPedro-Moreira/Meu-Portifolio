@@ -783,15 +783,23 @@ ul li a:hover {
     }
 
     .curriculo {
-        max-width: 100%;
-        margin: 3rem auto 1rem;
-        padding: 0.8rem 1.2rem;
+        display: block;
+        width: 90%;
+        max-width: 420px;
+        margin: 60px auto 30px;
+        padding: 15px 10px;
         box-sizing: border-box;
+        text-align: center;
     }
 
-    #curriculo{
+    #curriculo {
         display: flex;
         justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0 15px;
+        box-sizing: border-box;
     }
 
 
@@ -981,32 +989,34 @@ ul li a:hover {
     #habilidades {
         display: flex;
         flex-direction: column;
-        align-items: stretch;
-        justify-content: center;
-        gap: 0.75rem;
+        justify-content: flex-start;
+        align-items: center;
         width: 90%;
         height: auto;
-        margin: 2rem auto;
-        padding: 1rem;
-        translate: none;
+        margin: 25px auto;
+        padding: 15px;
+        gap: 10px;
+        translate: 0;
         box-sizing: border-box;
     }
 
     #habilidades > div {
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        min-width: 0;
+        gap: 0;
+        box-sizing: border-box;
     }
 
     #habilidades h5 {
         width: 100%;
-        max-width: 100%;
-        margin: 0;
-        padding: 0.6rem 0.75rem;
+        margin: 8px 0;
+        padding: 12px 8px;
         box-sizing: border-box;
-        font-size: clamp(0.85rem, 3.5vw, 1rem);
-        overflow-wrap: break-word;
+        text-align: center;
+        font-size: 15px;
+        overflow-wrap: anywhere;
     }
-
 
 
     #blocostec {
