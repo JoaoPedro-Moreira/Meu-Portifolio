@@ -230,6 +230,7 @@ ul li a:hover {
     color: white;
     border-radius: 12px;
     scroll-snap-align: start;
+    padding-bottom: 2%;
 }
 
 .projeto h3{
