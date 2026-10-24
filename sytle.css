@@ -223,14 +223,14 @@ ul li a:hover {
     height: 100%;
     width: 50%;
     max-width: 900px;
-    max-height: 650px;
+    max-height: 660px;
     margin: 0 30px 0 30px;
     border-radius: 50px;
     box-sizing: border-box;
     color: white;
     border-radius: 12px;
     scroll-snap-align: start;
-    padding-bottom: 2%;
+    padding-bottom: 10%;
 }
 
 .projeto h3{
