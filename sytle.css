@@ -1093,6 +1093,12 @@ ul li a:hover {
     }
 
 
+    #conteudosobre{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
 
     #sobre {
         display: flex;
