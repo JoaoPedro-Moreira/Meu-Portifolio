@@ -585,7 +585,7 @@ ul li a:hover {
 }
 
 #textosobre {
-    width: 40%;
+    width: 35%;
     background-color: #3F0359;
     border-radius: 12px;
 }
@@ -601,7 +601,7 @@ ul li a:hover {
 #sobre h3{
     color: white;
     font-family: "Tilt Neon";
-    font-size: 1,5rem;
+    font-size: 1rem;
     padding: 2%;
     text-align: justify;
 }
